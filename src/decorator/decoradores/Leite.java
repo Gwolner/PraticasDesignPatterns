@@ -8,17 +8,15 @@ import decorator.bebidas.Bebida;
  */
 public class Leite extends Condimento{
     
-    Bebida bebida;
-    
-    Leite(Bebida bebida){
-        this.bebida = bebida;
+    public Leite(Bebida bebida){
+        super.bebida = bebida;
     }
     
     public String getDescricao(){
-        return this.bebida.getDescricao() + " ,Leite";
+        return super.bebida.getDescricao() + ", Leite";
     }
     
     public double getCusto(){
-        return this.bebida.getCusto() + .80;
+        return super.bebida.getCusto() + .80;
     }
 }

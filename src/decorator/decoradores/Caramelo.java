@@ -8,17 +8,15 @@ import decorator.bebidas.Bebida;
  */
 public class Caramelo extends Condimento{
     
-    Bebida bebida;
-    
-    Caramelo(Bebida bebida){
-        this.bebida = bebida;
+    public Caramelo(Bebida bebida){
+        super.bebida = bebida;
     }
     
     public String getDescricao(){
-        return this.bebida.getDescricao() + " ,Caramelo";
+        return super.bebida.getDescricao() + ", Caramelo";
     }
     
     public double getCusto(){
-        return this.bebida.getCusto() + .95;
+        return super.bebida.getCusto() + .95;
     }
 }

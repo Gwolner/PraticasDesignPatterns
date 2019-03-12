@@ -8,17 +8,15 @@ import decorator.bebidas.Bebida;
  */
 public class Canela extends Condimento {
     
-    Bebida bebida;
-    
-    Canela(Bebida bebida){
-        this.bebida = bebida;
+    public Canela(Bebida bebida){
+        super.bebida = bebida;
     }
     
     public String getDescricao(){
-        return this.bebida.getDescricao() + " ,Canela";
+        return super.bebida.getDescricao() + ", Canela";
     }
     
     public double getCusto(){
-        return this.bebida.getCusto() + .70;
+        return super.bebida.getCusto() + .70;
     }
 }
