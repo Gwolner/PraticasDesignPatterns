@@ -12,7 +12,7 @@ Para maiores detalhes sobre o projeto, clique em seu nome para ser redirecionado
 
 ### Padrões comportamentais
 
-* Strategy (SimUDuck)
+* Strategy ([SimUDuck](https://github.com/Gwolner/GoF-strategy-simuduck))
 * Observer 
 * Command
 * Template Method
