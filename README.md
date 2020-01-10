@@ -1,4 +1,4 @@
-# Treinamento Design Patterns
+# Práticas Design Patterns
 
 Compilado de projetos desenvolvidos para aprender e aperfeiçoar o estudo dos Padrões de Projetos (Design Patterns).
 Cada padrão aqui abordado foi inspirado em exemplos abordados no livro "Use a Cabeça! Padrões de Projetos", 2ª edição 
