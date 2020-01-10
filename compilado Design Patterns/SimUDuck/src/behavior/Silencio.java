@@ -4,11 +4,10 @@ package behavior;
  *
  * @author guilhermewolner
  */
-public class Grasnar implements QuackBehavior{
-
+public class Silencio implements QuackBehavior{
+    
     @Override
     public void quack() {
-        System.out.println("Quack!!");
+        System.out.println("<< Silêncio >>");
     }
-    
 }

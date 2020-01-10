@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package modelos.patos;
 
 import behavior.QuackBehavior;
@@ -16,7 +11,7 @@ public class Pato {
     
     String nomePato;
     
-    //Atributos de apoio ao comportamento dinâmico dos patos
+    //Atributos de apoio ao comportamento próprio e dinâmico dos patos
     VooBehavior vooBehavior;
     QuackBehavior quackBehavior;
     
@@ -40,16 +35,24 @@ public class Pato {
     }
     
     
-    //Implementação trocada pelo uso do GoF Strategy
+//    //Implementação trocada pelo uso do GoF Strategy
 //    public void quack(){
 //        System.out.println(nomePato+" fez quack!");
 //    }   
     
-    //Implementação trocada pelo uso do GoF Strategy
+//    //Implementação trocada pelo uso do GoF Strategy
 //    public void voar(){
 //        System.out.println(nomePato+" está voando!");
 //    }
-    
-    
+
+    //Métodos que atribuem comportamentos dinamicamente
+    public void setVooBehavior(VooBehavior vooBehavior) {
+        this.vooBehavior = vooBehavior;
+    }
+
+    public void setQuackBehavior(QuackBehavior quackBehavior) {
+        this.quackBehavior = quackBehavior;
+    }
+  
     
 }

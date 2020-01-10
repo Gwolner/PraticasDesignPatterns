@@ -1,6 +1,6 @@
-
 package simuduck;
 
+import behavior.Foguete;
 import modelos.patos.CabecaVermelha;
 import modelos.patos.Mallard;
 import modelos.patos.PatoDeBorracha;
@@ -54,22 +54,10 @@ public class SimUDuck {
         pdm.performQuack();
         pdm.performVoo();
         
+        System.out.println("\nUm foguete será equipado no Pato de Madeira \n");
         
-//        //Forma baseada em herança que leva ao erro
-//        Mallard mallard = new Mallard();
-//        
-//        mallard.exibir();
-//        mallard.quack();
-//        mallard.nadar();
-//        mallard.quack();
-//        mallard.voar();
-//        
-//        CabecaVermelha cv = new CabecaVermelha();
-//        cv.exibir();
-//        cv.quack();
-//        cv.nadar();
-//        cv.quack();
-//        cv.voar();
-
+        pdm.exibir();
+        pdm.setVooBehavior(new Foguete());
+        pdm.performVoo();
     }
 }

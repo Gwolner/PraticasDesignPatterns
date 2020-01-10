@@ -1,16 +1,16 @@
 package modelos.patos;
 
-import behavior.Grasnar;
 import behavior.BaterAsas;
+import behavior.Grasnar;
 
 /**
  *
  * @author guilhermewolner
  */
-public class CabecaVermelha extends Pato{
+public class Marreco extends Pato {
     
-    public CabecaVermelha(){
-        super.nomePato = "Cabeça-Vermelha";
+    public Marreco(){
+        super.nomePato = "Marreco";
         super.quackBehavior = new Grasnar();
         super.vooBehavior = new BaterAsas();
     }

@@ -1,12 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package modelos.patos;
 
 import behavior.Apitar;
-import behavior.NaoPodeVoar;
+import behavior.NaoVoar;
 
 /**
  *
@@ -17,12 +12,13 @@ public class PatoDeBorracha extends Pato{
     public PatoDeBorracha(){
         super.nomePato = "Pato de borracha";
         super.quackBehavior = new Apitar();
-        super.vooBehavior = new NaoPodeVoar();
+        super.vooBehavior = new NaoVoar();
     }
     
-    //Implementação trocada pelo uso do GoF Strategy
+//    //Implementação trocada pelo uso do GoF Strategy
 //    @Override
 //    public void quack(){
 //        System.out.println("Squeeeak");
 //    }
+    
 }
