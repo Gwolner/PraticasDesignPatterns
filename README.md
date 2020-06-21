@@ -1,30 +1,26 @@
 # Práticas Design Patterns
 
-Compilado de projetos desenvolvidos para aprender e aperfeiçoar o estudo dos Padrões de Projetos (Design Patterns).
-Cada padrão aqui abordado foi inspirado em exemplos abordados no livro "Use a Cabeça! Padrões de Projetos", 2ª edição 
-revisada da Editora Alta Books.
+> Compilado de projetos desenvolvidos para aprender e aperfeiçoar Padrões de Projetos (Design Patterns).
 
 ## Grupo de Padrões
 
-Os projetos se dividem em três grupos de padrões, conforme abaixo. Em cada grupo encontra-se o nome do Padrão utilizado e, em parênteses, o nome do seu respectivo projeto. 
-
-Para maiores detalhes sobre o projeto, clique em seu nome para ser redirecionado ao seu repositório.
+Os projetos se dividem em três grupos de padrões, conforme abaixo. Em cada grupo encontra-se o nome do padrão utilizado e, entre parênteses, o nome do respectivo projeto. Para maiores detalhes sobre o projeto, clique em seu nome para ser redirecionado ao seu repositório.
 
 ### Padrões comportamentais
 
-* Strategy ([SimUDuck](https://github.com/Gwolner/GoF-strategy-simuduck))
-* Observer 
+* Strategy ([SimUDuck](https://github.com/Gwolner/simuduck-gof-strategy))
+* Observer ([Weather Monitoring](https://github.com/Gwolner/weather-monitoring-gof-observer))
 * Command
 * Template Method
 
 ### Padrões estruturais
 
-* Decorator
+* Decorator ([Starbuzz Coffee](https://github.com/Gwolner/starbuzz-coffee-gof-decorator))
 * Adapter
 * Facade
 
 ### Padrões de criação
 
-* Factory Method
-* Abstract Factory
-* Singleton
+* Factory Method ([Central de Mensagem](https://github.com/Gwolner/mensagem-gof-factory-method))
+* Abstract Factory ([Montadora de carros](https://github.com/Gwolner/montadora-gof-abstract-factory))
+* Singleton ([Gerenciador de impressão](https://github.com/Gwolner/impressao-gof-singleton))
