@@ -1,6 +1,6 @@
 # Práticas Design Patterns
 
-> Compilado de projetos desenvolvidos para aprender e aperfeiçoar Padrões de Projetos (Design Patterns).
+> Compilado de projetos desenvolvidos para aprender e aperfeiçoar os Padrões de Projetos (Design Patterns) mais utilizados.
 
 ## Grupo de Padrões
 
