@@ -24,3 +24,20 @@ Os projetos se dividem em três grupos de padrões, conforme abaixo. Em cada gru
 * Factory Method ([Central de Mensagem](https://github.com/Gwolner/mensagem-gof-factory-method))
 * Abstract Factory ([Montadora de carros](https://github.com/Gwolner/montadora-gof-abstract-factory))
 * Singleton ([Gerenciador de impressão](https://github.com/Gwolner/impressao-gof-singleton))
+
+## Resumo prático
+
+Há uma quantidade enorme de padrões que nem sempre são utilizados com frequências nos projetos na carreira de um desenvolvedor, desta forma é preciso que haja ao menos uma forma de lembrar em que situação se emprega cada um deles. A fim de evitar uma assimilação mais complexa, onde se daria por uma sequência exaustiva de "decoreba" e repetição de código engessada, segue abaixo um resumo prático com a situação mais comum de se utilziar os padrões aqui abordados.
+
+Strategy = 
+Observer
+Command
+Template Method
+
+Decorator
+Adapter
+Facade
+
+Factory Method
+Abstract Factory
+Singleton
