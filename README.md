@@ -17,7 +17,7 @@ Os projetos se dividem em três grupos de padrões, conforme abaixo. Em cada gru
 
 * Decorator ([Starbuzz Coffee](https://github.com/Gwolner/starbuzz-coffee-gof-decorator))
 * Adapter ([Comutador de conexão](https://github.com/Gwolner/conexao-gof-adapter))
-* Facade
+* Facade ([Autenticador de conta](https://github.com/Gwolner/autenticador-gof-facade))
 
 ### Padrões de criação
 
