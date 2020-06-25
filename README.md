@@ -29,22 +29,22 @@ Os projetos se dividem em três grupos de padrões, conforme abaixo. Em cada gru
 
 Há uma quantidade enorme de padrões que nem sempre são utilizados com frequências nos projetos na carreira de um desenvolvedor, desta forma é preciso que haja ao menos uma forma de lembrar em que situação se emprega cada um deles. A fim de evitar uma assimilação mais complexa, onde se daria por uma sequência exaustiva de "decoreba" e repetição de código engessada, segue abaixo um resumo prático com a situação mais comum de se utilziar os padrões aqui abordados.
 
-🤖 <b>Strategy<b/> = "Alterar dinâmicamente o comportamento de uma objeto."
+🤖 <b>Strategy</b> = "Alterar dinâmicamente o comportamento de uma objeto."
 
-👁‍🗨 <b>Observer<b/> = "Manter um objeto informado das alterações sofridas por outro objeto."
+👁‍🗨 <b>Observer</b> = "Manter um objeto informado das alterações sofridas por outro objeto."
 
-🎮 <b>Command<b/> = "Cria um objeto para encapsular todas as instrunções necessárias para execução de comandos (uma ação ou um evento) em um momento futuro."
+🎮 <b>Command</b> = "Cria um objeto para encapsular todas as instrunções necessárias para execução de comandos (uma ação ou um evento) em um momento futuro."
 
-📑 <b>Template Method<b/> = "Define um método que executa uma sequência de instrunções (vários outros métodos) em uma determinada ordem."
+📑 <b>Template Method</b> = "Define um método que executa uma sequência de instrunções (vários outros métodos) em uma determinada ordem."
 
-☕ <b>Decorator<b/> = "Permite adicionar um comportamento a um objeto já existente em tempo de execução."
+☕ <b>Decorator</b> = "Permite adicionar um comportamento a um objeto já existente em tempo de execução."
 
-🔌 <b>Adapter<b/> = "Permite a compatibilidade entre objetos distindos."
+🔌 <b>Adapter</b> = "Permite a compatibilidade entre objetos distindos."
 
-⛩ <b>Facade<b/> = "Cria uma interface simples ocultando toda complexidade de uso de uma classe complexa (ou de um conjunto de subclasses)."
+⛩ <b>Facade</b> = "Cria uma interface simples ocultando toda complexidade de uso de uma classe complexa (ou de um conjunto de subclasses)."
 
-🏭 <b>Factory Method<b/> = "Permite a instanciação de <b>um objeto<b/> com caracteristicas previamente definidas."
+🏭 <b>Factory Method</b> = "Permite a instanciação de <b>um objeto</b> com caracteristicas previamente definidas."
 
-👨‍👩‍👧‍👦 <b>Abstract Factory<b/> = "Permite a instanciação de <b>uma família<b/> de objetos com caracteristicas previamente definidas."
+👨‍👩‍👧‍👦 <b>Abstract Factory</b> = "Permite a instanciação de <b>uma família</b> de objetos com caracteristicas previamente definidas."
 
-🪑 <b>Singleton<b/> = "Permite a instanciação de um único objeto."
+🪑 <b>Singleton</b> = "Permite a instanciação de um único objeto."
