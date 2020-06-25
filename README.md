@@ -10,8 +10,8 @@ Os projetos se dividem em três grupos de padrões, conforme abaixo. Em cada gru
 
 * Strategy ([SimUDuck](https://github.com/Gwolner/simuduck-gof-strategy))
 * Observer ([Weather Monitoring](https://github.com/Gwolner/weather-monitoring-gof-observer))
-* Command
-* Template Method
+* Command ([Joystick Super Game](https://github.com/Gwolner/joystick-gof-command))
+* Template Method ([Tocador de música](https://github.com/Gwolner/tocador-gof-template-method))
 
 ### Padrões estruturais
 
